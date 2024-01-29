@@ -50,11 +50,28 @@
 
 #4
 
-int_string = input()
-count_beggars = int(input())
-splitted_string_list = int_string.split(", ")
+# int_string = input()
+# count_beggars = int(input())
+# splitted_string_list = int_string.split(", ")
 
-# for i in range(0, len(splitted_string_list) - 1):
-#     if i % 2 == 0:
-#         splitted_string_list[i] =
-print(len(splitted_string_list) / count_beggars)
+# # for i in range(0, len(splitted_string_list) - 1):
+# #     if i % 2 == 0:
+# #         splitted_string_list[i] =
+# more_beggars = len(splitted_string_list) - count_beggars
+# if more_beggars < 0:
+    
+
+
+#5
+
+# cards_string = input()
+# num_shuffles = int(input())
+
+# cards_list = cards_string.split()
+
+# for i in range(num_shuffles):
+#     first_half = cards_list[:len(cards_list)//2]
+#     second_half = cards_list[len(cards_list)//2:]
+#     cards_list = [c for pair in zip(first_half, second_half) for c in pair]
+
+# print(cards_list)
