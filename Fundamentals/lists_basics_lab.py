@@ -39,28 +39,44 @@
 
 #3
 
-# red_card = input()
+# cards = input().split()
 
-# list_of_red_cards = red_card.split()
+# team_a = ["A-" + str(number) for number in range(1,12)]
+# team_b = ["B-" + str(number) for number in range(1,12)]
 
-# print(f"Team A - {final_a_players}; Team B - {final_b_players}")
+# is_game_terminated = False
 
-# if team_a_player_count >= 7 and team_b_player_count >=7:
+# for card in cards:
+#     if card in team_a:
+#         team_a.remove(card)
+#     elif card in team_b:
+#         team_b.remove(card)
+#     if len(team_a) < 7 or len(team_b) < 7:
+#         is_game_terminated = True
+#         break
 
+# print(f"Team A - {len(team_a)}; Team B - {len(team_b)}")
+# if is_game_terminated:
+#     print('Game was terminated')
 
 #4
 
-# int_string = input()
-# count_beggars = int(input())
-# splitted_string_list = int_string.split(", ")
+to_take = [int(taken) for taken in input().split(', ')]
+count_beggars = int(input())
 
-# # for i in range(0, len(splitted_string_list) - 1):
-# #     if i % 2 == 0:
-# #         splitted_string_list[i] =
-# more_beggars = len(splitted_string_list) - count_beggars
-# if more_beggars < 0:
+final_sum = []
+starting_index = 0
+
+for beggar in range(count_beggars):
+    beggar_sum = 0
+
+    for i in range(starting_index, len(to_take), count_beggars):
+        beggar_sum += to_take[i]
+
+    final_sum.append(beggar_sum)
+    starting_index += 1
     
-
+print(final_sum)
 
 #5
 
