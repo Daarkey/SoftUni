@@ -75,3 +75,20 @@
 #     cards_list = [c for pair in zip(first_half, second_half) for c in pair]
 
 # print(cards_list)
+
+
+#6
+
+# list_nums = input()
+# numbers = int(input())
+
+# int_list_nums = [int(i) for i in list_nums.split()]
+
+# for _ in range(numbers):
+#     small_num = min(int_list_nums)
+#     int_list_nums.remove(small_num)
+
+# str_list_nums = [str(j) for j in int_list_nums]
+# print((", ").join(str_list_nums))
+
+
