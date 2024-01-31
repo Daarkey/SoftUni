@@ -110,24 +110,25 @@
 
 #7
 
-gifts_to_buy = input().split()
+# gifts_to_buy = input().split()
 
-while True:
-    command = input()
+# while True:
+#     command = input()
 
-    if command == 'No Money':
-        break
-    for gift in gifts_to_buy:
-        if command == 'OutOfStock {gift}':
-            gifts_to_buy[gift] = 'None'
-        elif command == 'Required {gift} {index}':
-            gifts_to_buy[gift] = gift
-        elif command == 'JustInCase {gift}':
-            gifts_to_buy[-1] = gift
+#     if command == 'No Money':
+#         break
+    
+#     for gift in range(len(gifts_to_buy)):
+#         if command == 'OutOfStock {gift}':
+#             gifts_to_buy[gift] = 'None'
+#         elif command == 'Required {gift} {index}':
+#             gifts_to_buy[gift] = gift
+#         elif command == 'JustInCase {gift}':
+#             gifts_to_buy[-1] = gift
 
-    for gift in gifts_to_buy:
-        if gift == 'None':
-            list.remove(gift)
+#     for gift in gifts_to_buy:
+#         if gift == 'None':
+#             list.remove(gift)
 
-print(''.join(gifts_to_buy))
+# print(' '.join(gifts_to_buy))
 
