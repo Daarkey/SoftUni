@@ -107,6 +107,27 @@
 # str_list_nums = [str(j) for j in int_list_nums]
 # print((", ").join(str_list_nums))
 
-my_list = [1,2,3]
-for i in range(len(my_list)):
-    print(i)
+
+#7
+
+gifts_to_buy = input().split()
+
+while True:
+    command = input()
+
+    if command == 'No Money':
+        break
+    for gift in gifts_to_buy:
+        if command == 'OutOfStock {gift}':
+            gifts_to_buy[gift] = 'None'
+        elif command == 'Required {gift} {index}':
+            gifts_to_buy[gift] = gift
+        elif command == 'JustInCase {gift}':
+            gifts_to_buy[-1] = gift
+
+    for gift in gifts_to_buy:
+        if gift == 'None':
+            list.remove(gift)
+
+print(''.join(gifts_to_buy))
+
