@@ -61,22 +61,22 @@
 
 #4
 
-to_take = [int(taken) for taken in input().split(', ')]
-count_beggars = int(input())
+# to_take = [int(taken) for taken in input().split(', ')]
+# count_beggars = int(input())
 
-final_sum = []
-starting_index = 0
+# final_sum = []
+# starting_index = 0
 
-for beggar in range(count_beggars):
-    beggar_sum = 0
+# for beggar in range(count_beggars):
+#     beggar_sum = 0
 
-    for i in range(starting_index, len(to_take), count_beggars):
-        beggar_sum += to_take[i]
+#     for i in range(starting_index, len(to_take), count_beggars):
+#         beggar_sum += to_take[i]
 
-    final_sum.append(beggar_sum)
-    starting_index += 1
-    
-print(final_sum)
+#     final_sum.append(beggar_sum)
+#     starting_index += 1
+
+# print(final_sum)
 
 #5
 
@@ -107,4 +107,6 @@ print(final_sum)
 # str_list_nums = [str(j) for j in int_list_nums]
 # print((", ").join(str_list_nums))
 
-
+my_list = [1,2,3]
+for i in range(len(my_list)):
+    print(i)
