@@ -69,22 +69,47 @@
 #5
 
 
-def total_price(product, quantity):
-    final_price = 0
+# def total_price(product, quantity):
+#     final_price = 0
+    
+#     if product == 'coffee':
+#         final_price = quantity * 1.50
+#     elif product == 'water':
+#         final_price = quantity * 1
+#     elif product == 'coke':
+#         final_price = quantity * 1.4
+#     elif final_price == 'snacks':
+#         final_price = quantity * 2
 
-    if product == 'coffee':
-        final_price = quantity * 1.50
-    elif product == 'water':
-        final_price = quantity * 1
-    elif product == 'coke':
-        final_price = quantity * 1.4
-    elif final_price == 'snacks':
-        final_price = quantity * 2
+#     return print(f'{final_price:.2f}')
 
-    # return print(f'{final_price:.2f}')
-    return final_price
+# product = input()
+# quantity = int(input())
 
-product = input()
-quantity = int(input())
+# total_price(product, quantity)
 
-print(f'{total_price(product, quantity):.2f}')
+
+#6
+
+# def rec_area(width, height):
+#     return print(width * height)
+
+# width_input = int(input())
+# height_input = int(input())
+
+# rec_area(width_input, height_input)
+
+
+#7
+
+# def rounding_numbers(number):
+#     return round(number)
+
+# numbers = [float(num) for num in input().split(' ')]
+
+# final_list  = []
+
+# for num in numbers:
+#     final_list.append(rounding_numbers(num))
+
+# print(final_list)
