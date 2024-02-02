@@ -25,12 +25,22 @@ num_of_people = [int(i) for i in input().split(' ')]
 k = int(input())
 
 dead_people = []
+counter = 0
+index = 0
+
 while len(num_of_people) > 0:
+    counter += 1
 
-    for person in range(k, len(num_of_people), k):
-        num_of_people.remove(person)
-        dead_people.append(person)
+    if counter % k == 0:
+        dead = num_of_people.pop(index)
+        dead_people.append(dead)
+    else:
+        index += 1
 
+    if index >= len(num_of_people):
+        index = 0
+    
+dead_people = [int(i) for i in dead_people.split(', ')]
 print(dead_people)
 
 #5
