@@ -21,28 +21,27 @@
 
 #4
 
-# num_of_people = [int(i) for i in input().split(' ')]
-num_of_people = input().split(' ')
-k = int(input())
+# num_of_people = input().split(' ')
+# k = int(input())
 
-dead_people = []
-counter = 0
-index = 0
+# dead_people = []
+# counter = 0
+# index = 0
 
-while len(num_of_people) > 0:
-    counter += 1
+# while len(num_of_people) > 0:
+#     counter += 1
 
-    if counter % k == 0:
-        dead = num_of_people.pop(index)
-        dead_people.append(dead)
+#     if counter % k == 0:
+#         dead = num_of_people.pop(index)
+#         dead_people.append(dead)
 
-    else:
-        index += 1
+#     else:
+#         index += 1
 
-    if index >= len(num_of_people):
-        index = 0
+#     if index >= len(num_of_people):
+#         index = 0
 
-print(str(dead_people).replace(' ', '').replace('\'', ''))
+# print(str(dead_people).replace(' ', '').replace('\'', ''))
 
 
 #5
