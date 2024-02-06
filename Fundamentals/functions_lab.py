@@ -56,7 +56,28 @@
 
 
 """5. Even Numbers"""
+# def get_even_numbers(list_of_numbers):
 
+#     even_numbers = []
+#     for number in list_of_numbers:
+#         if number % 2 == 0:
+#             even_numbers.append(number)
+
+#     return even_numbers
+
+
+# numbers = [int(x) for x in input().split()]
+# print(get_even_numbers(numbers))
+
+"""OR USING FILTER()"""
+
+
+def get_even_numbers(num):
+    return num % 2 == 0
+
+
+numbers = [int(x) for x in input().split()]
+print(list(filter(get_even_numbers, numbers)))
 
 """6. Sort"""
 
