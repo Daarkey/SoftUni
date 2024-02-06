@@ -26,9 +26,33 @@
 # print(add_and_subtract(number1, number2, number3))
 
 """3. Characters in Range"""
+# def ascii_range(starting_char, ending_char):
+#     for char in range(ord(starting_char) + 1, ord(ending_char)):
+#         print(chr(char), end=" ")
+
+# first_char = input()
+# second_char = input()
+# ascii_range(first_char, second_char)
 
 
 """4. Odd and Even Sum"""
+# def sum_of_even_and_odd(num):
+
+#     sum_of_odd_digits = 0
+#     sum_of_even_digits = 0
+
+#     for n in num:
+#         number = int(n)
+#         if number % 2 == 0:
+#             sum_of_even_digits += number
+#         else:
+#             sum_of_odd_digits += number
+
+#     return f"Odd sum = {sum_of_odd_digits}, Even sum = {sum_of_even_digits}"
+
+
+# number = input()
+# print(sum_of_even_and_odd(number))
 
 
 """5. Even Numbers"""
