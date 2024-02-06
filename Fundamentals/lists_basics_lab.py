@@ -1,4 +1,4 @@
-#1
+"""1. Invert Values"""
 
 # string = input()
 # list_of_string = []
@@ -15,8 +15,7 @@
 # print(new_list)
 
 
-#2
-
+"""2. Multiples List"""
 # factor = int(input())
 # count = int(input())
 
@@ -37,8 +36,7 @@
 # print(my_list)
 
 
-#3
-
+"""3. Football Cards"""
 # cards = input().split()
 
 # team_a = ["A-" + str(number) for number in range(1,12)]
@@ -59,8 +57,8 @@
 # if is_game_terminated:
 #     print('Game was terminated')
 
-#4
 
+"""4. Number Beggars"""
 # to_take = [int(taken) for taken in input().split(', ')]
 # count_beggars = int(input())
 
@@ -78,8 +76,8 @@
 
 # print(final_sum)
 
-#5
 
+"""5. Faro Shuffle"""
 # cards_string = input()
 # num_shuffles = int(input())
 
@@ -93,8 +91,7 @@
 # print(cards_list)
 
 
-#6
-
+"""6. Survival of the Biggest"""
 # list_nums = input()
 # numbers = int(input())
 
@@ -108,8 +105,7 @@
 # print((", ").join(str_list_nums))
 
 
-#7
-
+"""7. * Easter Gifts"""
 # gifts_to_buy = input().split()
 
 # while True:
@@ -117,7 +113,7 @@
 
 #     if command == 'No Money':
 #         break
-    
+
 #     for gift in range(len(gifts_to_buy)):
 #         if command == 'OutOfStock {gift}':
 #             gifts_to_buy[gift] = 'None'
@@ -131,4 +127,3 @@
 #             list.remove(gift)
 
 # print(' '.join(gifts_to_buy))
-

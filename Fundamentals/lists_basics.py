@@ -1,12 +1,13 @@
-#1
-#first try
+"""1. Strange Zoo"""
+
+# first try
 # tail, body, head = input(), input(), input()
 
 # right_order = [head, body, tail]
 
 # print(right_order)
 
-#second try
+# second try
 # right_order = []
 
 # for i in range(3):
@@ -17,8 +18,7 @@
 # print(right_order)
 
 
-#2
-
+"""2. Courses"""
 # number = int(input())
 
 # list_of_courses = []
@@ -30,7 +30,7 @@
 # print(list_of_courses)
 
 
-#3
+"""3. List Statistics"""
 # number = int(input())
 
 # positives = []
@@ -48,8 +48,7 @@
 # print(f'Sum of negatives: {sum(negatives)}')
 
 
-#4
-
+"""4. Search"""
 # number = int(input())
 # word = input()
 # string_list = []
@@ -68,8 +67,7 @@
 # print(string_list)
 
 
-#5
-
+"""5. Numbers Filter"""
 # number = int(input())
 # odd = []
 # even = []

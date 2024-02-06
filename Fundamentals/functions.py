@@ -1,4 +1,4 @@
-#1
+"""1. Absolute Values"""
 
 # def absolute_number(number):
 #     return abs(number)
@@ -13,8 +13,7 @@
 # print(final_list)
 
 
-#2
-
+"""2. Grades"""
 # def grade_to_category(number):
 #     grade = ''
 #     if 2.00 <= number <= 2.99:
@@ -34,8 +33,7 @@
 # print(grade_to_category(grade_input))
 
 
-#3
-
+"""3. Calculations"""
 # def calculator(operator, num_1, num_2):
 
 #     if operator == 'multiply':
@@ -55,8 +53,7 @@
 # calculator(operator, number_1, number_2)
 
 
-#4
-
+"""4. Repeat String"""
 # def string_replicator(string, times):
 #     return print(string * times)
 
@@ -66,12 +63,10 @@
 # string_replicator(string_input, counter)
 
 
-#5
-
-
+"""5. Orders"""
 # def total_price(product, quantity):
 #     final_price = 0
-    
+
 #     if product == 'coffee':
 #         final_price = quantity * 1.50
 #     elif product == 'water':
@@ -89,8 +84,7 @@
 # total_price(product, quantity)
 
 
-#6
-
+"""6. Calculate Rectangle Area"""
 # def rec_area(width, height):
 #     return print(width * height)
 
@@ -100,8 +94,7 @@
 # rec_area(width_input, height_input)
 
 
-#7
-
+"""7. Rounding"""
 # def rounding_numbers(number):
 #     return round(number)
 

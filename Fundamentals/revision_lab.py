@@ -1,4 +1,4 @@
-#1
+"""1. Jenny's Secret Message"""
 
 # name = input()
 
@@ -8,8 +8,7 @@
 #     print(f'Hello, {name}!')
 
 
-#2
-
+"""2. Drink Something"""
 # age = int(input())
 
 # if age <= 14:
@@ -22,8 +21,7 @@
 #     print('drink whisky')
 
 
-#3
-
+"""3. Chat Codes"""
 # messages = int(input())
 
 # for i in range(messages):
@@ -39,8 +37,7 @@
 #         print('Bye.')
 
 
-#4
-
+"""4. Maximum Multiple"""
 # divisor = int(input())
 # boundary = int(input())
 
@@ -55,8 +52,7 @@
 #         break
 
 
-#5
-
+"""5. Orders"""
 # orders = int(input())
 
 # total_price = 0
@@ -83,8 +79,7 @@
 # print(f'Total: ${total_price:.2f}')
 
 
-#6
-
+"""6. String Pureness"""
 # string_num = int(input())
 
 # for i in range(string_num):
@@ -99,8 +94,7 @@
 #         print(f'{string} is pure.')
 
 
-#7
-
+"""7. Double Char"""
 # command = ''
 
 # while True:
@@ -119,8 +113,7 @@
 #     print()
 
 
-#8
-
+"""8. How Much Coffee Do You Need?"""
 # command = ''
 # coffees = 0
 
@@ -144,8 +137,7 @@
 #         continue
 
 
-#9
-
+"""9. Sorting Hat"""
 # command = ''
 
 # while True:
@@ -170,31 +162,28 @@
 #         print(f'{command} goes to Hufflepuff.')
 
 
-#10
+"""10. * Mutate Strings"""
+# string1 = input()
+# string2 = input()
 
-string1 = input()
-string2 = input()
+# current_string = ''
 
-current_string = ''
+# for i in range(0, len(string2)):
 
-for i in range(0, len(string2)):
+#     for j in range(0,len(string1)):
 
-    for j in range(0,len(string1)):
+#         if string2[j] != string1[i]:
 
-        if string2[j] != string1[i]:
+#             if current_string == string2:
+#                 continue
 
-            if current_string == string2:
-                continue
-
-            current_string = string2.replace(string2[j], string1[i], 1)
-            print(current_string)
-        else:
-            continue
-    
+#             current_string = string2.replace(string2[j], string1[i], 1)
+#             print(current_string)
+#         else:
+#             continue
 
 
-#11
-
+"""11. * Easter Bread"""
 # budget = float(input())
 # price_flour = float(input())
 
@@ -225,5 +214,4 @@ for i in range(0, len(string2)):
 # print(f'You made {bread_counter} loaves of Easter bread! Now you have {colored_eggs} eggs and {(budget - current_sum):.2f}BGN left.')
 
 
-#12
-
+"""12. * Christmas Spirit"""

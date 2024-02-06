@@ -1,4 +1,4 @@
-#1
+"""1. Number Definer"""
 
 # number = float(input())
 
@@ -20,8 +20,7 @@
 #         print("negative")
 
 
-# #2
-
+"""2. Largest of Three Numbers"""
 # num1 = int(input())
 # num2 = int(input())
 # num3 = int(input())
@@ -29,16 +28,14 @@
 # print(max(num1, num2, num3))
 
 
-#3
-
+"""3. Word Reverse"""
 # word = input()
 
 # for i in range(len(word) - 1, -1, -1):
 #     print(word[i], end='')
 
 
-#4
-
+"""4. Even Numbers"""
 # number = int(input())
 
 # for n in range(number):
@@ -52,8 +49,7 @@
 #     print("All numbers are even.")
 
 
-#5
-
+"""5. Number Between 1 and 100"""
 # number = float(input())
 
 # while number < 1 or number > 100:
@@ -64,8 +60,7 @@
 #         break
 
 
-#6
-
+"""6. Shopping"""
 # budget = int(input())
 # total_spent = 0
 
@@ -85,8 +80,7 @@
 #         total_spent += price
 
 
-#7
-
+"""7. Patterns"""
 # number = int(input())
 
 # for i in range(1, number + 1):

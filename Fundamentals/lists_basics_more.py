@@ -1,4 +1,4 @@
-#1
+"""1. Zeros to Back"""
 
 # numbers = [int(i) for i in input().split(', ')]
 
@@ -10,17 +10,15 @@
 # print(numbers)
 
 
-#2
-
+"""2. Messaging"""
 # numbers = [int(i) for i in input().split('')]
 # string_input = input()
 
 
-#3
+"""3. Car Race"""
 
 
-#4
-
+"""4. Josephus Permutation"""
 # num_of_people = input().split(' ')
 # k = int(input())
 
@@ -44,8 +42,7 @@
 # print(str(dead_people).replace(' ', '').replace('\'', ''))
 
 
-#5
-
+"""5. Tic-Tac-Toe"""
 # first_line = [int(i) for i in input().split(' ')]
 # second_line = [int(i) for i in input().split(' ')]
 # third_line = [int(i) for i in input().split(' ')]

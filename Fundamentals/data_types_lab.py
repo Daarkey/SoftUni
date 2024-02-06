@@ -1,5 +1,4 @@
-#1
-
+"""1. Integer Operations"""
 
 # num1 = int(input())
 # num2 = int(input())
@@ -10,8 +9,7 @@
 # print(result)
 
 
-#2
-
+"""2. Chars to String"""
 # str1 = input()
 # str2 = input()
 # str3 = input()
@@ -19,8 +17,7 @@
 # print(str1 + str2 + str3)
 
 
-#3
-
+"""3. Elevator"""
 # people = int(input())
 # capacity = int(input())
 
@@ -34,8 +31,7 @@
 # print(courses)
 
 
-#4
-
+"""4. Sum of Chars"""
 # lines = int(input())
 
 # total_sum = 0
@@ -47,8 +43,7 @@
 # print(f'The sum equals: {total_sum}')
 
 
-#5
-
+"""5. Print Part of the ASCII Table"""
 # starting_char = int(input())
 # last_char = int(input())
 
@@ -56,9 +51,7 @@
 #     print(chr(c), end=' ')
 
 
-#6
-
+"""6. Triples of Latin Letters"""
 # number = int(input())
 
 # for i in range(number):
-
