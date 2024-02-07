@@ -100,7 +100,39 @@
 """8. Palindrome Integers"""
 
 
-"""9. Password Validator"""
+def is_palindrome(list_of_numbers):
+    list_of_reversed_nums = []
+    list_of_palindromes = []
+
+    for number in list_of_numbers:
+        reversed_num = 0
+        while number != 0:
+            digit = number % 10
+            reversed_num = reversed_num * 10 + digit
+            number = number // 10
+        list_of_reversed_nums.append(reversed_num)
+
+    """This returns a list with only the reversed numbers"""
+    # for num in list_of_numbers:
+    #     for rev_num in list_of_reversed_nums:
+    #         if num == rev_num:
+    #             list_of_palindromes.append(num)
+
+    for num in range(0, len(list_of_numbers)):
+        for rev_num in range(0, len(list_of_reversed_nums)):
+            if num == rev_num:
+                if list_of_numbers[num] == list_of_reversed_nums[rev_num]:
+                    list_of_palindromes.append("True")
+                else:
+                    list_of_palindromes.append("False")
+
+    return list_of_palindromes
 
 
-"""10. Perfect Number"""
+numbers = [int(x) for x in input().split(", ")]
+print(is_palindrome(numbers))
+
+# """9. Password Validator"""
+
+
+# """10. Perfect Number"""
