@@ -65,11 +65,10 @@
 
 #     return even_numbers
 
-
 # numbers = [int(x) for x in input().split()]
 # print(get_even_numbers(numbers))
 
-# """OR USING FILTER()"""
+"""OR USING FILTER()"""
 # def get_even_numbers(num):
 #     return num % 2 == 0
 
@@ -81,10 +80,22 @@
 # print((list(filter(lambda number: (number % 2 == 0), numbers))))
 
 """6. Sort"""
-
+# numbers = [int(x) for x in input().split()]
+# print(sorted(numbers))
 
 """7. Min Max and Sum"""
+# def min_max_sum(list_of_numbers):
+#     min_num = min(list_of_numbers)
+#     max_num = max(list_of_numbers)
+#     sum_num = sum(list_of_numbers)
+#     return min_num, max_num, sum_num
 
+# numbers = [int(x) for x in input().split()]
+
+# results = min_max_sum(numbers)
+# print(f"The minimum number is {results[0]}")
+# print(f"The maximum number is {results[1]}")
+# print(f"The sum number is: {results[2]}")
 
 """8. Palindrome Integers"""
 
