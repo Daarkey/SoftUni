@@ -73,7 +73,7 @@
 #         final_price = quantity * 1
 #     elif product == 'coke':
 #         final_price = quantity * 1.4
-#     elif final_price == 'snacks':
+#     elif product == 'snacks':
 #         final_price = quantity * 2
 
 #     return print(f'{final_price:.2f}')

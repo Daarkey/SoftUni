@@ -69,15 +69,16 @@
 # numbers = [int(x) for x in input().split()]
 # print(get_even_numbers(numbers))
 
-"""OR USING FILTER()"""
+# """OR USING FILTER()"""
+# def get_even_numbers(num):
+#     return num % 2 == 0
 
+# numbers = [int(x) for x in input().split()]
+# print(list(filter(get_even_numbers, numbers)))
 
-def get_even_numbers(num):
-    return num % 2 == 0
-
-
-numbers = [int(x) for x in input().split()]
-print(list(filter(get_even_numbers, numbers)))
+"""OR USING FILTER AND LAMBDA"""
+# numbers = [int(x) for x in input().split()]
+# print((list(filter(lambda number: (number % 2 == 0), numbers))))
 
 """6. Sort"""
 
