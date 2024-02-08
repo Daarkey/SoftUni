@@ -98,41 +98,63 @@
 # print(f"The sum number is: {results[2]}")
 
 """8. Palindrome Integers"""
+# def is_palindrome(list_of_numbers):
+#     list_of_reversed_nums = []
+#     list_of_palindromes = []
+
+#     for number in list_of_numbers:
+#         reversed_num = 0
+#         while number != 0:
+#             digit = number % 10
+#             reversed_num = reversed_num * 10 + digit
+#             number = number // 10
+#         list_of_reversed_nums.append(reversed_num)
+
+#     """This returns a list with only the reversed numbers"""
+#     # for num in list_of_numbers:
+#     #     for rev_num in list_of_reversed_nums:
+#     #         if num == rev_num:
+#     #             list_of_palindromes.append(num)
+
+#     for num in range(0, len(list_of_numbers)):
+#         for rev_num in range(0, len(list_of_reversed_nums)):
+#             if num == rev_num:
+#                 if list_of_numbers[num] == list_of_reversed_nums[rev_num]:
+#                     list_of_palindromes.append("True")
+#                 else:
+#                     list_of_palindromes.append("False")
+
+#     return list_of_palindromes
 
 
-def is_palindrome(list_of_numbers):
-    list_of_reversed_nums = []
-    list_of_palindromes = []
+# numbers = [int(x) for x in input().split(", ")]
+# print(is_palindrome(numbers))
 
-    for number in list_of_numbers:
-        reversed_num = 0
-        while number != 0:
-            digit = number % 10
-            reversed_num = reversed_num * 10 + digit
-            number = number // 10
-        list_of_reversed_nums.append(reversed_num)
-
-    """This returns a list with only the reversed numbers"""
-    # for num in list_of_numbers:
-    #     for rev_num in list_of_reversed_nums:
-    #         if num == rev_num:
-    #             list_of_palindromes.append(num)
-
-    for num in range(0, len(list_of_numbers)):
-        for rev_num in range(0, len(list_of_reversed_nums)):
-            if num == rev_num:
-                if list_of_numbers[num] == list_of_reversed_nums[rev_num]:
-                    list_of_palindromes.append("True")
-                else:
-                    list_of_palindromes.append("False")
-
-    return list_of_palindromes
-
-
-numbers = [int(x) for x in input().split(", ")]
-print(is_palindrome(numbers))
 
 # """9. Password Validator"""
+def password_validator(password):
+    is_valid = False
+    digit_counter = 0
 
+    if 6 <= len(password) <= 10:
+        is_valid = True
+    else:
+        print("Password must be between 6 and 10 characters")
+    if password:
+        is_valid = True
+    else:
+        print("Password must consist only of letters and digits")
+    if digit_counter >= 2:
+        is_valid = True
+    else:
+        print("Password must have at least 2 digits")
+
+    if is_valid == "True":
+        return "Password is valid"
+
+
+password_input = input()
+
+print(password_validator(password_input))
 
 # """10. Perfect Number"""
