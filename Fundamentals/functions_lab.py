@@ -132,36 +132,33 @@
 
 
 """9. Password Validator"""
+# def password_validator(password):
+#     is_valid = False
+#     digit_counter = sum(x.isdigit() for x in password)
+#     success = "Password is valid"
+#     if 6 <= len(password) <= 10:
+#         is_valid = True
+#     else:
+#         is_valid = False
+#         print("Password must be between 6 and 10 characters")
+#     if password.isalnum():
+#         is_valid = True
+#     else:
+#         is_valid = False
+#         print("Password must consist only of letters and digits")
+#     if digit_counter >= 2:
+#         is_valid = True
+#     else:
+#         is_valid = False
+#         print("Password must have at least 2 digits")
 
+#     if is_valid:
+#         # success = "Password is valid"
+#         print(success)
+#         # return success
 
-def password_validator(password):
-    is_valid = False
-    digit_counter = sum(x.isdigit() for x in password)
+# password_input = input()
 
-    if 6 <= len(password) <= 10:
-        is_valid = True
-    else:
-        is_valid = False
-        print("Password must be between 6 and 10 characters")
-    if password.isalnum():
-        is_valid = True
-    else:
-        is_valid = False
-        print("Password must consist only of letters and digits")
-    if digit_counter >= 2:
-        is_valid = True
-    else:
-        is_valid = False
-        print("Password must have at least 2 digits")
-
-    if is_valid == "True":
-        success = "Password is valid"
-        return success
-
-
-password_input = input()
-
-result = password_validator(password_input)
-print(result)
+# print(password_validator(password_input))
 
 # """10. Perfect Number"""
