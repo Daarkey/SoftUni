@@ -131,30 +131,37 @@
 # print(is_palindrome(numbers))
 
 
-# """9. Password Validator"""
+"""9. Password Validator"""
+
+
 def password_validator(password):
     is_valid = False
-    digit_counter = 0
+    digit_counter = sum(x.isdigit() for x in password)
 
     if 6 <= len(password) <= 10:
         is_valid = True
     else:
+        is_valid = False
         print("Password must be between 6 and 10 characters")
-    if password:
+    if password.isalnum():
         is_valid = True
     else:
+        is_valid = False
         print("Password must consist only of letters and digits")
     if digit_counter >= 2:
         is_valid = True
     else:
+        is_valid = False
         print("Password must have at least 2 digits")
 
     if is_valid == "True":
-        return "Password is valid"
+        success = "Password is valid"
+        return success
 
 
 password_input = input()
 
-print(password_validator(password_input))
+result = password_validator(password_input)
+print(result)
 
 # """10. Perfect Number"""
